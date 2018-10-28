@@ -32,6 +32,7 @@ Hello and welcome familia Diaz/Guzman (+ all others)! We are excited to continue
 
 ```{r, echo=FALSE, fig.align='center'}
 
+# Credit to http://www.theanalyticslab.nl/2016/12/25/christmas-tree-with-ggplot/ for the Christmas tree code #
 
 rm(list = ls())
 library(ggplot2)
