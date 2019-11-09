@@ -6,5 +6,5 @@ rmarkdown::render((here::here("template", "secret_santa.Rmd")),
                                 limit = 15,
                                 run_matches = "no"
                                 ),
-                  output_file = paste0("secret_santa_", year))
+                  output_file = paste0("secret_santa_", 2019))
 
