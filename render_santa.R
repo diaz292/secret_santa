@@ -1,4 +1,5 @@
-library(knitr)
+library(rmarkdown)
+library(here)
 
 rmarkdown::render((here::here("template", "secret_santa.Rmd")),
                   output_dir = here::here("docs"),
